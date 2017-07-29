@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
                                     View view, int position, long l) {
                 Intent i = new Intent(MainActivity.this, details.class);
                 i.putExtra("name", names[position]);
-                i.putExtra("details", details[position]);
+                i.putExtra("details+", details[position]);
                 i.putExtra("image", images[position]);
                 startActivity(i);
             }

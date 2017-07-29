@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 /**
- * Created by alphasingh on 26-06-2017.
+ * Created on 26-06-2017.
  * To avoid the white screen due to cold start
  * Rather show the user something else during this time
  * Don't waste user's time with a splash screen
